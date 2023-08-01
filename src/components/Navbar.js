@@ -17,6 +17,7 @@ function Navbar() {
     <div className="navbar" id={expandNavbar ? "open" : "close"}>
       <div className="toggleButton">
         <button
+          color="transparent"
           onClick={() => {
             setExpandNavbar((prev) => !prev);
           }}
